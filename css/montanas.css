@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(#4d98db , black); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100VH;
+}
+.titulo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./../recursos/montañas.png);
+    color: white
+}
+body > div.titulo{
+    background-image: url(./../recursos/montañas.png);
+    min-height: 128px;
+    background-repeat: no-repeat;
+    max-width: 992px;
+    margin: 0 auto;
+}
+#seccion{
+    max-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+#caja-izquierda{
+    width: 618px;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+}
+#caja-derecha{
+    width: 300px;
+    float: right;
+    margin: 0;
+    padding: 0 20px 0 0;
+    color: #787878 ;
+}
+#caja-derecha ul {
+    list-style: circle;
+}
+#caja-derecha ul li{
+    line-height: 30px;
+    margin: 0 30px;
+    padding: 0 0 0 15px;
+    border-left: none;
+}
+#caja-derecha h2{
+    line-height: 32px;
+    font-size: 32px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D6D6D6; 
+    letter-spacing: 5px; 
+    font-size: 1.8em; 
+    color: #696969;
+    background-image: url(./../recursos/viñeta.jpg)
+    no-repeat left 4px; 
+}
+.limpiar-flotante{
+clear: both;
+}
+.post{
+    border: 1px solid white;
+    margin-left: 10px;
+    background-image: linear-gradient(#eaeaea , white);
+    border-bottom: 1px dotted #E7E2DC;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.post h1 {
+    letter-spacing: -.5px;
+    padding:  20px 10px 0px 30px ;
+    font-size: 30px;
+}
+.post p {
+    padding: 0px 30px 20px 30px;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+#Información{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#Información span{
+    font-weight: bold;
+    font-style: italic;
+}
+#Información span:first-child{
+  float: right;
+}
+
+#Información span:last-child{
+   float: left;
+  }
+a{
+    color: #4D4D4D;
+}
+#sobre-publicacion a{
+    padding-top: 20px; 
+    font-size: 12px; 
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 10px;
+}
